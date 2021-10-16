@@ -23,7 +23,9 @@ WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
 
 WebUI.click(findTestObject('Object Repository/Page_Google/div_Zgadzam si'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Google/input_Usu_btnK'))
+WebUI.verifyElementVisible(findTestObject('Page_Google/input_Usu_btnK'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Google/img_Jak dziaa wyszukiwarka_Pb9hCb'), 0)
 
 WebUI.closeBrowser()
 
