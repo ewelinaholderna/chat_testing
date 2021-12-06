@@ -1,64 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Zarejestruj konto_iconImg</name>
+   <name>textarea_Zmie dane_editOSobie</name>
    <tag></tag>
-   <elementGuidId>8551947a-659d-46d2-928d-6a0dee332fc8</elementGuidId>
+   <elementGuidId>413c1a8e-ee9e-4ca5-92fd-b3a85538bfa2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='menuCol1']/div[3]/img</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@src = './icon_profile.png']</value>
+         <value>//textarea[@id='editOSobie']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#editOSobie</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>iconImg</value>
+      <value>editOSobie</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>./icon_profile.png</value>
+      <value>Kilka słów o sobie:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menuCol1&quot;)/div[@class=&quot;icon&quot;]/img[@class=&quot;iconImg&quot;]</value>
+      <value>id(&quot;editOSobie&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@id='editOSobie']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='menuCol1']/div[3]/img</value>
+      <value>//div[@id='editWindow']/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/img</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

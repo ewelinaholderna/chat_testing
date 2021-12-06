@@ -10,11 +10,14 @@
          <value>//div[@id='menuCol1']/div[6]/img</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@src = './icon_close.png']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
