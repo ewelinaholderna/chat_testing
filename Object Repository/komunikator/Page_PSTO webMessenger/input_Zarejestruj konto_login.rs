@@ -4,17 +4,26 @@
    <name>input_Zarejestruj konto_login</name>
    <tag></tag>
    <elementGuidId>146e29ef-5630-4196-a15a-d56e40449afa</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#login</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'loginBttn1' and @type = 'button' and @id = 'login']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='login']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#login</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +33,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

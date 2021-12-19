@@ -6,12 +6,12 @@
    <elementGuidId>eed4964c-3964-4a7a-a211-34cfb9bdba63</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='passwordLogin']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#passwordLogin</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='passwordLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

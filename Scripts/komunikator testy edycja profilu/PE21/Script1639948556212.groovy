@@ -21,17 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'marta83')
+WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'zMDjEGXuMr8=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-alert_text = WebUI.getAlertText()
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 
-WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
+WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), 'https://www.wp.pl/')
+
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
+
+value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), 'value')
+
+WebUI.verifyMatch(value_text, '(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})', 
+    true)
 
 WebUI.closeBrowser()
 

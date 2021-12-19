@@ -19,24 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
+WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
+    'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.scrollToElement(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.waitForElementClickable(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
 
-WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), '/*-789')
+WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
+tytul = WebUI.getWindowTitle()
 
-value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), 'value')
-
-WebUI.verifyNotEqual('/*-789', value_text)
+WebUI.verifyMatch(tytul, '.*Zalogowano', true)
 
 WebUI.closeBrowser()
 

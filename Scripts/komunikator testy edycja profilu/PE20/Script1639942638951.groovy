@@ -30,11 +30,13 @@ WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarej
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 
-WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editName'), 'Ewa')
+WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), 'abcdefghijk!@')
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
 
-WebUI.waitForElementVisible(findTestObject('komunikator/Page_PSTO webMessenger - Zalogowano/p_Error'), 3)
+value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), 'value')
 
-WebUI.verifyElementText(findTestObject('komunikator/Page_PSTO webMessenger - Zalogowano/p_Dane zostay zmienione'), 'DANE ZOSTAŁY ZMIENIONE!')
+WebUI.verifyNotEqual('abcdefghijk!@', value_text, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
 

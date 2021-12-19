@@ -21,22 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
+WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
     'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
-
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
-
-WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMail'), 'ewelina+holderna@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
-
-value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMail'), 'value')
-
-WebUI.verifyNotEqual('ewelina+holderna@gmail.com', value_text)
-
-WebUI.closeBrowser()
 

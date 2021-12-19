@@ -21,22 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
+WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
+    'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+    'zMDjEGXuMr8=')
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+alert_text = WebUI.getAlertText()
 
-WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), 'abcdefghijk!@')
-
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
-
-value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), 'value')
-
-WebUI.verifyNotEqual('abcdefghijk!@', value_text)
+WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
 
 WebUI.closeBrowser()
 

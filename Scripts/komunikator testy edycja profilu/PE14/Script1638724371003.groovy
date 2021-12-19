@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowan
 
 value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMiasto'), 'value')
 
-WebUI.verifyNotEqual('/*-+11', value_text)
+WebUI.verifyNotEqual('/*-+11', value_text, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

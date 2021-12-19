@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PE18</name>
+   <name>Logowanie 3 chrome</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b687990d-777a-42ab-a41f-6edd393f6405</testCaseGuid>
+   <testCaseGuid>809a5381-11f7-4265-8058-6bed60c8da41</testCaseGuid>
 </TestCaseEntity>

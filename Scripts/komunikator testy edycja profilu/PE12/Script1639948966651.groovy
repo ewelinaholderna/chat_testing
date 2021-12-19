@@ -21,17 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
 
-WebUI.setText(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), '123456')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+    'aeHFOx8jV/A=')
 
-WebUI.getText(findTestObject('Page_WSB - Selenium Playground - Logowanie/input_Haslo_haslo'))
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.setText(findTestObject('Page_WSB - Selenium Playground - Logowanie/input_Haslo_haslo'), toString())
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'gTdOhju3VKGOhxgoavcrVyCHdPoAotGtq3LRd/yKWzCKN7PQPEMLzUrUC+PQyqCpEGIK1w151l0fg+ZJQiejG8M/awTDEfQ/fcWoKz+TuIqGUNCkim/CY/GSHmvcsJD5DNNE628EAyKQHKJgUv6Lvjqha/kqgrLsbMjhLE2FsBCuyYMOkLAWQm0ay0OecsIDga49xgkuZr6IyP8iuw0dm+E408NHC3ramwNgIeVKaaH5eVuTWc4ReR5c2VV1NVXFRpbqRnsXYrSim0StFWmLjoWWPR8rmM7Z/82a7bpRdBWVGj2aSzOwLw6h70itHjTqvk7Swg+0NqraY4X03x5vC0XYgUzRfLnqBKUmCOcb863HZnkl84d+KmBbDT38hp99Nzq1vmWe01XmpCsR2KeJuZHVV+zE1N6J')
+WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMail'), 'ewelina+gmail.com')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
+
+value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMail'), 'value')
+
+WebUI.verifyMatch(value_text, '^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$', true, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
 

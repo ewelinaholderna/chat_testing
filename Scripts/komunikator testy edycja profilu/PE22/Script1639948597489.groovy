@@ -30,5 +30,14 @@ WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarej
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 
+WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), '/*-789')
+
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
+
+value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editWww'), 'value')
+
+WebUI.verifyMatch(value_text, '(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]+\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]+\\.[^\\s]{2,})', 
+    true, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
 
