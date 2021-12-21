@@ -23,23 +23,20 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
 
-WebUI.scrollToElement(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
 
-WebUI.waitForElementClickable(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
+WebUI.waitForElementClickable(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.waitForPageLoad(2)
+podswietlona_historia_rozmow = WebUI.getCSSValue(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat'), 
+    'opacity')
 
-tytul = WebUI.getWindowTitle()
-
-WebUI.verifyMatch(tytul, '.*Zalogowano', true)
+WebUI.verifyMatch(podswietlona_historia_rozmow, '1', true)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="logowanie" time="119.102" tests="6" failures="0" errors="0">
+   <testsuite name="logowanie" tests="6" failures="0" errors="0" time="119.102" skipped="0" timestamp="2021-12-21 22:42:11" hostname="ASUS - N551JK" id="Test Suites/logowanie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_224206\\logowanie\\20211221_224206"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_224206\\logowanie\\20211221_224206\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - N551JK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Firefox 95.0"/>
+         <property name="hostAddress" value="192.168.1.203"/>
+         <property name="sessionId" value="6fc7ce00-06d6-47d4-8fac-70f770b5883e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/komunikator testy logowanie/L3" time="15.918" classname="Test Cases/komunikator testy logowanie/L3" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:42:12 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L3: Test Cases/komunikator testy logowanie/L3
+
+2021-12-21 22:42:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:42:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:42:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:42:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:42:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 22:42:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 22:42:21 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:23 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:24 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 22:42:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 22:42:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-21 22:42:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-21 22:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-12-21 22:42:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-21 22:42:26 - [TEST_STEP][PASSED] - tytul = getWindowTitle(): Current window's title is: 'PSTO webMessenger - Zalogowano'
+
+2021-12-21 22:42:26 - [MESSAGE][PASSED] - Current window's title is: 'PSTO webMessenger - Zalogowano'
+
+2021-12-21 22:42:26 - [TEST_STEP][PASSED] - verifyMatch(tytul, ".*Zalogowano", true): Actual text 'PSTO webMessenger - Zalogowano' and expected text '.*Zalogowano' are matched  using regular expression
+
+2021-12-21 22:42:26 - [MESSAGE][PASSED] - Actual text 'PSTO webMessenger - Zalogowano' and expected text '.*Zalogowano' are matched  using regular expression
+
+2021-12-21 22:42:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:42:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L4" time="13.223" classname="Test Cases/komunikator testy logowanie/L4" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:42:28 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L4: Test Cases/komunikator testy logowanie/L4
+
+2021-12-21 22:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:42:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:42:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:42:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:42:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 22:42:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 22:42:34 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:37 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:38 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "zMDjEGXuMr8="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 22:42:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 22:42:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), 3): Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-21 22:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-21 22:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:40 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:42:40 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:42:40 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:42:40 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:42:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:42:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L5" time="10.908" classname="Test Cases/komunikator testy logowanie/L5" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:42:41 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L5: Test Cases/komunikator testy logowanie/L5
+
+2021-12-21 22:42:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:42:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:42:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:42:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:42:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 22:42:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 22:42:47 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:49 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:50 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:42:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), ""): Text '' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:42:51 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:42:51 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:42:51 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:42:51 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:42:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:42:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L7" time="11.2" classname="Test Cases/komunikator testy logowanie/L7" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:42:52 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L7: Test Cases/komunikator testy logowanie/L7
+
+2021-12-21 22:42:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:42:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:42:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:42:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:42:58 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:59 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:00 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:01 - [TEST_STEP][PASSED] - podswietlona_historia_rozmow = getCSSValue(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat"), "opacity"): Get CSS 'opacity' value on 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-21 22:43:02 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-21 22:43:02 - [TEST_STEP][PASSED] - verifyMatch(podswietlona_historia_rozmow, "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-21 22:43:02 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-21 22:43:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:43:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L8" time="23.563" classname="Test Cases/komunikator testy logowanie/L8" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:43:03 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L8: Test Cases/komunikator testy logowanie/L8
+
+2021-12-21 22:43:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:43:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:43:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:43:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:43:09 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:43:11 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:12 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 22:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 22:43:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 22:43:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 22:43:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 22:43:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 22:43:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 22:43:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 22:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 22:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 22:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' is clicked on
+
+2021-12-21 22:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' is clicked on
+
+2021-12-21 22:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:18 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:19 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:20 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:20 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:20 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:20 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:20 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:21 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 22:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 22:43:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 22:43:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 22:43:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 22:43:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 22:43:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 22:43:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 22:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 22:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 22:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' is clicked on
+
+2021-12-21 22:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' is clicked on
+
+2021-12-21 22:43:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:43:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L9" time="40.566" classname="Test Cases/komunikator testy logowanie/L9" status="PASSED">
+         <system-out><![CDATA[2021-12-21 22:43:27 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L9: Test Cases/komunikator testy logowanie/L9
+
+2021-12-21 22:43:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 22:43:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-21 22:43:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 22:43:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 22:43:33 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:43:34 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 22:43:34 - [TEST_STEP][PASSED] - for ([row = 1, row <= 20, (row++)]): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:35 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:36 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:36 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:36 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:36 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:36 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:36 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '2' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:37 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:38 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:38 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:38 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:38 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:38 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:38 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '3' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:38 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:40 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:40 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:40 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:40 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:40 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:40 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '4' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:40 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:41 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:42 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:42 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:42 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:42 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:42 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '5' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:43 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:44 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:44 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:44 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:44 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:44 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '6' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:44 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:45 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:45 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:45 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:45 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:45 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:45 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '7' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:46 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:47 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:47 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:47 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:47 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:47 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:47 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '8' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:47 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:48 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:48 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:48 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:48 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:48 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:48 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '9' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:49 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:50 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:50 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:50 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:50 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:50 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:50 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '10' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:50 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:51 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:51 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:51 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:51 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:51 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:51 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '11' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:52 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:53 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:53 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:53 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:53 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:53 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:53 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '12' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:53 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:54 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:54 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:54 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:54 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:54 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:54 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '13' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:55 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:56 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:56 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:56 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:56 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:56 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:56 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '14' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:56 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:57 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:57 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:57 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:57 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:57 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:57 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '15' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:58 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:43:59 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:43:59 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:43:59 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:59 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:43:59 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:59 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:43:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '16' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:59 - [MESSAGE][PASSED] - Text '16' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:43:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:00 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:44:00 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:44:00 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:00 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:00 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:00 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '17' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:01 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:02 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:44:02 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:44:02 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:02 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:02 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:02 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '18' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:02 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:03 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:44:03 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:44:03 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:03 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:03 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:03 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '19' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:04 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:05 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:44:05 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:44:05 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:05 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:05 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:05 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), String.valueOf(row)): Text '20' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:05 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 22:44:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 22:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 22:44:06 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 22:44:06 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 22:44:06 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:06 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 22:44:06 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:06 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 22:44:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 22:44:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-21 22:42:11 - [TEST_SUITE][PASSED] - logowanie: Test Cases/komunikator testy logowanie/L9]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

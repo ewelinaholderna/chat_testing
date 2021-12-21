@@ -19,16 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-for (def row = 1; row <= 20; row++) {
-    WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-        String.valueOf(row))
+for (def row = 1; row <= 5; row++) {
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelina1')
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-        String.valueOf(row))
+    WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), String.valueOf(
+            row))
 
-    WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
     WebUI.waitForAlert(2)
 
@@ -36,6 +37,17 @@ for (def row = 1; row <= 20; row++) {
 
     WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
 }
+
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'Ewelina1')
+
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+podswietlona_historia_rozmow = WebUI.getCSSValue(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat'), 
+    'opacity')
+
+WebUI.verifyMatch(podswietlona_historia_rozmow, '1', true)
 
 WebUI.closeBrowser()
 

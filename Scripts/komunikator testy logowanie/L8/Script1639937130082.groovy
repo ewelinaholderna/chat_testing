@@ -19,38 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_oldPass'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'), 'aeHFOx8jV/A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPass'), 
-    'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'), 'qeJ0sjJnwEs=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPassRepeat'), 
-    'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_changePassword'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword'))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg_1'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'))
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
 WebUI.waitForAlert(2)
 
@@ -58,28 +53,23 @@ alert_text = WebUI.getAlertText()
 
 WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_oldPass'), 
-    'qeJ0sjJnwEs=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'), 'qeJ0sjJnwEs=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPass'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'), 'aeHFOx8jV/A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPassRepeat'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_changePassword'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword'))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg_1'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'))
 
 WebUI.closeBrowser()
 

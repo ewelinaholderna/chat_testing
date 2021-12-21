@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="logowanie" time="80.582" tests="6" failures="5" errors="0">
+   <testsuite name="logowanie" tests="6" failures="5" errors="0" time="80.582" skipped="0" timestamp="2021-12-21 23:09:11" hostname="ASUS - N551JK" id="Test Suites/logowanie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124576944.png, C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124585233.png, C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124585476.png, C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124607652.png"/>
+         <property name="hostName" value="ASUS - N551JK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.1.203"/>
+         <property name="sessionId" value="a6d729a08bad3ed0229c18fdac4117e4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/komunikator testy logowanie/L3" time="16.128" classname="Test Cases/komunikator testy logowanie/L3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/komunikator testy logowanie/L3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+"/>
+         <system-out><![CDATA[2021-12-21 23:09:12 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L3: Test Cases/komunikator testy logowanie/L3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+
+
+2021-12-21 23:09:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:09:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:09:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:09:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:09:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 23:09:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 23:09:17 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:24 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:25 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 23:09:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 23:09:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-21 23:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-21 23:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:27 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-12-21 23:09:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-21 23:09:28 - [TEST_STEP][PASSED] - tytul = getWindowTitle(): Current window's title is: 'PSTO webMessenger'
+
+2021-12-21 23:09:28 - [MESSAGE][PASSED] - Current window's title is: 'PSTO webMessenger'
+
+2021-12-21 23:09:28 - [TEST_STEP][FAILED] - verifyMatch(tytul, ".*Zalogowano", true): Unable to verify match between actual text 'PSTO webMessenger' and expected text '.*Zalogowano' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)
+
+2021-12-21 23:09:28 - [MESSAGE][FAILED] - Unable to verify match between actual text 'PSTO webMessenger' and expected text '.*Zalogowano' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2021-12-21 23:09:12 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L3: Test Cases/komunikator testy logowanie/L3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L4" time="8.882" classname="Test Cases/komunikator testy logowanie/L4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/komunikator testy logowanie/L4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-21 23:09:28 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L4: Test Cases/komunikator testy logowanie/L4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-21 23:09:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:09:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 23:09:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:09:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:09:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:09:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 23:09:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 23:09:32 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:34 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:35 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "zMDjEGXuMr8="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:35 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 23:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-21 23:09:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), 3): Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-21 23:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-21 23:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:36 - [TEST_STEP][FAILED] - alert_text = getAlertText(): Unable to get alert text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-12-21 23:09:37 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124576944.png]]
+
+2021-12-21 23:09:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-12-21 23:09:37 - [MESSAGE][FAILED] - Unable to get alert text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)]]></system-out>
+         <system-err><![CDATA[2021-12-21 23:09:28 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L4: Test Cases/komunikator testy logowanie/L4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L4.run(L4:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L5" time="8.458" classname="Test Cases/komunikator testy logowanie/L5" status="FAILED">
+         <failure type="FAILED" message="Test Cases/komunikator testy logowanie/L5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-21 23:09:37 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L5: Test Cases/komunikator testy logowanie/L5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-21 23:09:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:09:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 23:09:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:09:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:09:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:09:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-21 23:09:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-21 23:09:41 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:43 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:43 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), ""): Text '' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:45 - [TEST_STEP][FAILED] - alert_text = getAlertText(): Unable to get alert text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-12-21 23:09:45 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124585233.png]]
+
+2021-12-21 23:09:45 - [MESSAGE][FAILED] - Unable to get alert text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124585476.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-21 23:09:37 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L5: Test Cases/komunikator testy logowanie/L5 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get alert text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.getAlertText(GetAlertTextKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword.execute(GetAlertTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(WebUiBuiltInKeywords.groovy:1576)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getAlertText$9.call(Unknown Source)
+	at L5.run(L5:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.doCall(GetAlertTextKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.GetAlertTextKeyword$_getAlertText_closure1.call(GetAlertTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L7" time="9.36" classname="Test Cases/komunikator testy logowanie/L7" status="PASSED">
+         <system-out><![CDATA[2021-12-21 23:09:45 - [TEST_CASE][PASSED] - Test Cases/komunikator testy logowanie/L7: Test Cases/komunikator testy logowanie/L7
+
+2021-12-21 23:09:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:09:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 23:09:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:09:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:09:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:09:49 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:51 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:51 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:09:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:09:52 - [TEST_STEP][PASSED] - podswietlona_historia_rozmow = getCSSValue(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat"), "opacity"): Get CSS 'opacity' value on 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-21 23:09:53 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-21 23:09:53 - [TEST_STEP][PASSED] - verifyMatch(podswietlona_historia_rozmow, "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-21 23:09:53 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-21 23:09:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-21 23:09:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L8" time="12.755" classname="Test Cases/komunikator testy logowanie/L8" status="FAILED">
+         <failure type="FAILED" message="Test Cases/komunikator testy logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ff16cdc0c6c44aaadf6f8528078cf8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-21 23:09:55 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L8: Test Cases/komunikator testy logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ff16cdc0c6c44aaadf6f8528078cf8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-21 23:09:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:09:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:09:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:09:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:09:57 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:10:01 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:10:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:02 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 23:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' is clicked on
+
+2021-12-21 23:10:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 23:10:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'
+
+2021-12-21 23:10:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 23:10:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'
+
+2021-12-21 23:10:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 23:10:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'
+
+2021-12-21 23:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword")): Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 23:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword' is clicked on
+
+2021-12-21 23:10:07 - [TEST_STEP][FAILED] - click(findTestObject("Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close")): Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ff16cdc0c6c44aaadf6f8528078cf8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1639937130082.run(Script1639937130082.groovy:41)
+	... 13 more
+)
+
+2021-12-21 23:10:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ff16cdc0c6c44aaadf6f8528078cf8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1639937130082.run(Script1639937130082.groovy:41)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\lab_WSB\\Reports\\20211221_230906\\logowanie\\20211221_230906\\1640124607652.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-21 23:09:55 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L8: Test Cases/komunikator testy logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_close'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60379}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ff16cdc0c6c44aaadf6f8528078cf8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/komunikator testy logowanie/L9" time="18.867" classname="Test Cases/komunikator testy logowanie/L9" status="FAILED">
+         <failure type="FAILED" message="Test Cases/komunikator testy logowanie/L9 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L9.run(L9:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+"/>
+         <system-out><![CDATA[2021-12-21 23:10:07 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L9: Test Cases/komunikator testy logowanie/L9 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L9.run(L9:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+
+
+2021-12-21 23:10:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 23:10:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 23:10:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 23:10:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 23:10:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 23:10:11 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:10:13 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-21 23:10:13 - [TEST_STEP][PASSED] - for ([row = 1, row <= 5, (row++)]): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:14 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:15 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 23:10:16 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 23:10:16 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:16 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:16 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:16 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:16 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:17 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 23:10:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 23:10:18 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:18 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:18 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:18 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:19 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:20 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 23:10:20 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 23:10:20 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:20 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:20 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:20 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:21 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:22 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 23:10:22 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 23:10:22 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:22 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:22 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:22 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:23 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:24 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-21 23:10:25 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-21 23:10:25 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:25 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-21 23:10:25 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:25 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-21 23:10:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "Ewelina1"): Text 'Ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:25 - [MESSAGE][PASSED] - Text 'Ewelina1' is set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-21 23:10:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-21 23:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-21 23:10:26 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2021-12-21 23:10:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-21 23:10:26 - [TEST_STEP][PASSED] - tytul = getWindowTitle(): Current window's title is: 'PSTO webMessenger'
+
+2021-12-21 23:10:26 - [MESSAGE][PASSED] - Current window's title is: 'PSTO webMessenger'
+
+2021-12-21 23:10:26 - [TEST_STEP][FAILED] - verifyMatch(tytul, ".*Zalogowano", true): Unable to verify match between actual text 'PSTO webMessenger' and expected text '.*Zalogowano' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L9.run(L9:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)
+
+2021-12-21 23:10:26 - [MESSAGE][FAILED] - Unable to verify match between actual text 'PSTO webMessenger' and expected text '.*Zalogowano' using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L9.run(L9:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2021-12-21 23:10:07 - [TEST_CASE][FAILED] - Test Cases/komunikator testy logowanie/L9: Test Cases/komunikator testy logowanie/L9 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L9.run(L9:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-21 23:09:11 - [TEST_SUITE][FAILED] - logowanie: Test Cases/komunikator testy logowanie/L3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-12-21 23:09:11 - [TEST_SUITE][FAILED] - logowanie: Test Cases/komunikator testy logowanie/L3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'PSTO webMessenger' and expected text '.*Zalogowano' are not matched using regular expression
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at L3.run(L3:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640124546989.run(TempTestSuite1640124546989.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

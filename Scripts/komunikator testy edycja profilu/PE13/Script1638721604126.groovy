@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
@@ -28,13 +30,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMiasto'), 'Poznań')
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMiasto'), 2)
+
+WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMiasto'), 'Poznań')
+
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'), 2)
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
 
-value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmie dane_editMiasto'), 'value')
+value_text = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMiasto'), 'value')
 
 WebUI.verifyEqual('Poznań', value_text)
 

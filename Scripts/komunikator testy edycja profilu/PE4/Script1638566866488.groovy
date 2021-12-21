@@ -19,30 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinah')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinah')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_oldPass'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass'), 'aeHFOx8jV/A=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPass'), 
-    '4nvbrPglk7k=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass'), '4nvbrPglk7k=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_editPassRepeat'), 
-    'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat'), 'iGDxf8hSRT4=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger - Zalogowano/input_Zmie haso_changePassword'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword'))
 
-WebUI.verifyElementText(findTestObject('komunikator/Page_PSTO webMessenger - Zalogowano/p_Podane Hasa rni si'), 'PODANE HASŁA RÓŻNIĄ SIĘ!')
+WebUI.verifyElementText(findTestObject('Page_PSTO webMessenger - Zalogowano/p_Podane Hasla roznia sie'), 'PODANE HASŁA RÓŻNIĄ SIĘ!')
 
 WebUI.closeBrowser()
 

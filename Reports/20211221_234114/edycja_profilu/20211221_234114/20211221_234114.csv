@@ -1,0 +1,270 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+edycja_profilu,Chrome 96.0.4664.110,,,2021-12-21 23:41:19,2021-12-21 23:45:10,"3m - 51,305s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE1,Chrome 96.0.4664.110,,,2021-12-21 23:41:20,2021-12-21 23:41:37,"17,463s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:41:21,2021-12-21 23:41:25,"4,341s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:41:25,2021-12-21 23:41:26,"0,760s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:26,2021-12-21 23:41:28,"1,739s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:28,2021-12-21 23:41:29,"0,926s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:29,2021-12-21 23:41:29,"0,627s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:29,2021-12-21 23:41:30,"0,479s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:30,2021-12-21 23:41:31,"1,463s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:31,2021-12-21 23:41:32,"0,634s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""qeJ0sjJnwEs="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:32,2021-12-21 23:41:33,"0,979s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""qeJ0sjJnwEs="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:33,2021-12-21 23:41:33,"0,542s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:33,2021-12-21 23:41:34,"0,462s",PASSED
+"verifyElementText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Haslo zostalo zmienione""), ""HASŁO ZOSTAŁO ZMIENIONE!"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:34,2021-12-21 23:41:34,"0,583s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""qeJ0sjJnwEs="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:34,2021-12-21 23:41:35,"0,603s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:35,2021-12-21 23:41:35,"0,505s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:35,2021-12-21 23:41:36,"0,473s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:36,2021-12-21 23:41:36,"0,435s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:41:36,2021-12-21 23:41:37,"1,112s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE2,Chrome 96.0.4664.110,,,2021-12-21 23:41:37,2021-12-21 23:41:51,"13,184s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:41:38,2021-12-21 23:41:40,"1,755s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:41:40,2021-12-21 23:41:40,"0,222s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:40,2021-12-21 23:41:42,"1,906s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:42,2021-12-21 23:41:43,"0,766s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:43,2021-12-21 23:41:43,"0,504s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:43,2021-12-21 23:41:44,"0,432s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:44,2021-12-21 23:41:45,"0,867s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:45,2021-12-21 23:41:45,"0,694s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""tzH6RvlfSTg="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:45,2021-12-21 23:41:46,"0,548s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""tzH6RvlfSTg="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:46,2021-12-21 23:41:46,"0,555s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:46,2021-12-21 23:41:47,"0,520s",PASSED
+"zmienna1 = getText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Haslo zostalo zmienione""), STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 23:41:47,2021-12-21 23:41:47,"0,646s",PASSED
+"verifyNotEqual(zmienna1, ""HASŁO ZOSTAŁO ZMIENIONE!"", CONTINUE_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 23:41:47,2021-12-21 23:41:48,"0,098s",FAILED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""tzH6RvlfSTg="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:48,2021-12-21 23:41:48,"0,554s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:48,2021-12-21 23:41:49,"0,488s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:49,2021-12-21 23:41:49,"0,433s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:49,2021-12-21 23:41:49,"0,450s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:41:49,2021-12-21 23:41:51,"1,173s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE3,Chrome 96.0.4664.110,,,2021-12-21 23:41:51,2021-12-21 23:42:02,"11,694s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:41:51,2021-12-21 23:41:53,"1,833s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:41:53,2021-12-21 23:41:53,"0,260s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:53,2021-12-21 23:41:55,"1,717s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:41:55,2021-12-21 23:41:56,"0,987s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:56,2021-12-21 23:41:57,"0,558s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:57,2021-12-21 23:41:57,"0,426s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:41:57,2021-12-21 23:41:58,"1,063s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:58,2021-12-21 23:41:59,"0,646s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:59,2021-12-21 23:41:59,"0,515s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:41:59,2021-12-21 23:42:00,"0,830s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:00,2021-12-21 23:42:01,"0,466s",PASSED
+"zmienna1 = getText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Haslo zostalo zmienione""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:01,2021-12-21 23:42:01,"0,613s",PASSED
+"verifyNotEqual(zmienna1, ""HASŁO ZOSTAŁO ZMIENIONE!"", CONTINUE_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 23:42:01,2021-12-21 23:42:01,"0,008s",FAILED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:42:01,2021-12-21 23:42:02,"1,200s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE4,Chrome 96.0.4664.110,,,2021-12-21 23:42:02,2021-12-21 23:42:13,"11,070s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:03,2021-12-21 23:42:05,"1,776s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:05,2021-12-21 23:42:05,"0,318s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:05,2021-12-21 23:42:07,"1,648s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:07,2021-12-21 23:42:08,"0,795s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:08,2021-12-21 23:42:08,"0,454s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:08,2021-12-21 23:42:08,"0,387s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:08,2021-12-21 23:42:09,"0,997s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:09,2021-12-21 23:42:10,"0,613s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""4nvbrPglk7k="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:10,2021-12-21 23:42:11,"0,607s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""iGDxf8hSRT4="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:11,2021-12-21 23:42:11,"0,473s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:11,2021-12-21 23:42:12,"0,608s",PASSED
+"verifyElementText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Podane Hasla roznia sie""), ""PODANE HASŁA RÓŻNIĄ SIĘ!"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:12,2021-12-21 23:42:12,"0,561s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:42:12,2021-12-21 23:42:13,"1,222s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE5,Chrome 96.0.4664.110,,,2021-12-21 23:42:13,2021-12-21 23:42:24,"10,712s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:14,2021-12-21 23:42:16,"1,752s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:16,2021-12-21 23:42:16,"0,418s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:16,2021-12-21 23:42:18,"1,704s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:18,2021-12-21 23:42:19,"0,751s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:19,2021-12-21 23:42:19,"0,459s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:19,2021-12-21 23:42:20,"0,395s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:20,2021-12-21 23:42:21,"1,123s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:21,2021-12-21 23:42:21,"0,677s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""4nvbrPglk7k="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:21,2021-12-21 23:42:22,"0,543s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:22,2021-12-21 23:42:22,"0,477s",PASSED
+"zmienna1 = getText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Nie wypeniono wszystkich pol Podane Hasla ronzia sie""), STOP_ON_FAILURE)",Chrome 96.0.4664.110,,,2021-12-21 23:42:22,2021-12-21 23:42:23,"0,565s",PASSED
+"verifyMatch(zmienna1, ""NIE WYPEŁNIONO WSZYSTKICH PÓL!.*"", true)",Chrome 96.0.4664.110,,,2021-12-21 23:42:23,2021-12-21 23:42:23,"0,025s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:42:23,2021-12-21 23:42:24,"1,157s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE6,Chrome 96.0.4664.110,,,2021-12-21 23:42:24,2021-12-21 23:42:36,"11,658s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:25,2021-12-21 23:42:27,"1,956s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:27,2021-12-21 23:42:27,"0,199s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:27,2021-12-21 23:42:29,"1,798s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinah"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:29,2021-12-21 23:42:30,"0,812s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:30,2021-12-21 23:42:30,"0,436s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:30,2021-12-21 23:42:31,"0,392s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:31,2021-12-21 23:42:31,"0,885s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_oldPass""), ""tzH6RvlfSTg="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:31,2021-12-21 23:42:32,"0,629s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPass""), ""iGDxf8hSRT4="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:32,2021-12-21 23:42:33,"0,535s",PASSED
+"setEncryptedText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_editPassRepeat""), ""iGDxf8hSRT4="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:33,2021-12-21 23:42:33,"0,511s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien haslo_changePassword""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:33,2021-12-21 23:42:34,"0,878s",PASSED
+"verifyElementText(findTestObject(""Page_PSTO webMessenger - Zalogowano/p_Podane dotychczasowe haslo jest bledne""), ""PODANE DOTYCHCZASOWE HASŁO JEST BŁĘDNE!"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:34,2021-12-21 23:42:35,"0,640s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 23:42:35,2021-12-21 23:42:36,"1,231s",PASSED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE7,Chrome 96.0.4664.110,,,2021-12-21 23:42:36,2021-12-21 23:42:44,"8,548s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:36,2021-12-21 23:42:38,"1,886s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:38,2021-12-21 23:42:39,"0,278s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:39,2021-12-21 23:42:40,"1,565s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:40,2021-12-21 23:42:41,"0,760s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:41,2021-12-21 23:42:41,"0,470s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:41,2021-12-21 23:42:42,"0,386s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:42,2021-12-21 23:42:43,"1,001s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editName""), ""Ewa"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:43,2021-12-21 23:42:44,"0,923s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:44,2021-12-21 23:42:44,"0,681s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE8,Chrome 96.0.4664.110,,,2021-12-21 23:42:44,2021-12-21 23:42:55,"10,152s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:45,2021-12-21 23:42:48,"3,047s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:48,2021-12-21 23:42:48,"0,195s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:48,2021-12-21 23:42:50,"1,686s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:50,2021-12-21 23:42:51,"0,898s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:42:51,2021-12-21 23:42:51,"0,451s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:51,2021-12-21 23:42:52,"0,414s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:52,2021-12-21 23:42:53,"0,978s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editName""), ""987!+"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:53,2021-12-21 23:42:54,"1,003s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:42:54,2021-12-21 23:42:55,"0,684s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE9,Chrome 96.0.4664.110,,,2021-12-21 23:42:55,2021-12-21 23:43:04,"9,634s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:42:55,2021-12-21 23:42:58,"2,869s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:42:58,2021-12-21 23:42:58,"0,242s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:42:58,2021-12-21 23:43:00,"1,747s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:00,2021-12-21 23:43:01,"0,768s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:01,2021-12-21 23:43:01,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:01,2021-12-21 23:43:02,"0,398s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:02,2021-12-21 23:43:03,"0,887s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editSurname""), ""Nowak"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:03,2021-12-21 23:43:04,"0,906s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:04,2021-12-21 23:43:04,"0,628s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE10,Chrome 96.0.4664.110,,,2021-12-21 23:43:04,2021-12-21 23:43:14,"10,011s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:05,2021-12-21 23:43:08,"3,092s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:08,2021-12-21 23:43:08,"0,407s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:08,2021-12-21 23:43:10,"1,596s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:10,2021-12-21 23:43:11,"0,752s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:11,2021-12-21 23:43:11,"0,457s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:11,2021-12-21 23:43:12,"0,392s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:12,2021-12-21 23:43:13,"0,989s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editSurname""), ""987!+"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:13,2021-12-21 23:43:14,"0,974s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:14,2021-12-21 23:43:14,"0,656s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE11,Chrome 96.0.4664.110,,,2021-12-21 23:43:14,2021-12-21 23:43:24,"9,960s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:15,2021-12-21 23:43:18,"2,860s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:18,2021-12-21 23:43:18,"0,264s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:18,2021-12-21 23:43:20,"1,998s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:20,2021-12-21 23:43:21,"0,776s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:21,2021-12-21 23:43:21,"0,442s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:21,2021-12-21 23:43:22,"0,400s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:22,2021-12-21 23:43:23,"0,922s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMail""), ""ewelina.holderna@gmail.com"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:23,2021-12-21 23:43:23,"0,922s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:23,2021-12-21 23:43:24,"0,695s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE12,Chrome 96.0.4664.110,,,2021-12-21 23:43:24,2021-12-21 23:43:34,"9,832s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:25,2021-12-21 23:43:28,"2,980s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:28,2021-12-21 23:43:28,"0,337s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:28,2021-12-21 23:43:30,"1,737s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:30,2021-12-21 23:43:31,"0,751s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:31,2021-12-21 23:43:31,"0,441s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:31,2021-12-21 23:43:31,"0,382s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:31,2021-12-21 23:43:32,"0,907s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMail""), ""ewelina+gmail.com"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:32,2021-12-21 23:43:33,"0,963s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:33,2021-12-21 23:43:34,"0,645s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE13,Chrome 96.0.4664.110,,,2021-12-21 23:43:34,2021-12-21 23:43:43,"9,102s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:35,2021-12-21 23:43:38,"2,842s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:38,2021-12-21 23:43:38,"0,337s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:38,2021-12-21 23:43:40,"1,737s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:40,2021-12-21 23:43:40,"0,749s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:40,2021-12-21 23:43:41,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:41,2021-12-21 23:43:41,"0,429s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:41,2021-12-21 23:43:42,"0,949s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMiasto""), ""Poznań"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:42,2021-12-21 23:43:43,"0,947s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE14,Chrome 96.0.4664.110,,,2021-12-21 23:43:43,2021-12-21 23:43:53,"10,024s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:44,2021-12-21 23:43:47,"2,995s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:47,2021-12-21 23:43:47,"0,207s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:47,2021-12-21 23:43:49,"2,397s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:49,2021-12-21 23:43:50,"0,713s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:50,2021-12-21 23:43:51,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:51,2021-12-21 23:43:51,"0,468s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:43:51,2021-12-21 23:43:52,"1,233s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editMiasto""), ""/*-+11"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:52,2021-12-21 23:43:53,"0,897s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE15,Chrome 96.0.4664.110,,,2021-12-21 23:43:53,2021-12-21 23:44:02,"9,065s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:43:54,2021-12-21 23:43:57,"2,947s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:43:57,2021-12-21 23:43:57,"0,234s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:57,2021-12-21 23:43:59,"1,751s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:43:59,2021-12-21 23:43:59,"0,705s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:43:59,2021-12-21 23:44:00,"0,464s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:00,2021-12-21 23:44:00,"0,398s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:00,2021-12-21 23:44:01,"1,025s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/textarea_Zmie dane_editOSobie""), ""Mam na imię Ewelina. Mieszkam w Poznaniu."")",Chrome 96.0.4664.110,,,2021-12-21 23:44:01,2021-12-21 23:44:02,"0,858s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE16,Chrome 96.0.4664.110,,,2021-12-21 23:44:02,2021-12-21 23:44:15,"12,340s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:03,2021-12-21 23:44:06,"2,696s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:06,2021-12-21 23:44:06,"0,265s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:06,2021-12-21 23:44:08,"2,344s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:08,2021-12-21 23:44:09,"0,713s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:09,2021-12-21 23:44:09,"0,460s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:09,2021-12-21 23:44:10,"0,418s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/div_Zarejestruj konto_icon""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:10,2021-12-21 23:44:11,"0,963s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:11,2021-12-21 23:44:11,"0,543s",PASSED
+"selectOptionByValue(findTestObject(""Page_PSTO webMessenger - Zalogowano/select_wiek""), ""20"", true)",Chrome 96.0.4664.110,,,2021-12-21 23:44:11,2021-12-21 23:44:14,"2,593s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:14,2021-12-21 23:44:15,"0,626s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE17,Chrome 96.0.4664.110,,,2021-12-21 23:44:15,2021-12-21 23:44:24,"9,868s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:15,2021-12-21 23:44:18,"2,831s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:18,2021-12-21 23:44:18,"0,261s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:18,2021-12-21 23:44:20,"1,980s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:20,2021-12-21 23:44:21,"0,766s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:21,2021-12-21 23:44:22,"0,459s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:22,2021-12-21 23:44:22,"0,392s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:22,2021-12-21 23:44:23,"0,983s",PASSED
+"selectOptionByValue(findTestObject(""Page_PSTO webMessenger - Zalogowano/select_plec""), ""1"", true)",Chrome 96.0.4664.110,,,2021-12-21 23:44:23,2021-12-21 23:44:24,"1,522s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE18,Chrome 96.0.4664.110,,,2021-12-21 23:44:24,2021-12-21 23:44:33,"8,991s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:25,2021-12-21 23:44:28,"2,848s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:28,2021-12-21 23:44:28,"0,245s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:28,2021-12-21 23:44:30,"1,770s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:30,2021-12-21 23:44:31,"0,734s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:31,2021-12-21 23:44:31,"0,436s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:31,2021-12-21 23:44:32,"0,392s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:32,2021-12-21 23:44:33,"0,995s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon""), ""123456789"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:33,2021-12-21 23:44:33,"0,899s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE19,Chrome 96.0.4664.110,,,2021-12-21 23:44:33,2021-12-21 23:44:43,"9,248s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:34,2021-12-21 23:44:37,"2,841s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:37,2021-12-21 23:44:37,"0,260s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:37,2021-12-21 23:44:39,"1,986s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:39,2021-12-21 23:44:40,"0,716s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:40,2021-12-21 23:44:40,"0,468s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:40,2021-12-21 23:44:41,"0,397s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:41,2021-12-21 23:44:42,"0,874s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon""), ""+48 123456789"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:42,2021-12-21 23:44:43,"0,968s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE20,Chrome 96.0.4664.110,,,2021-12-21 23:44:43,2021-12-21 23:44:52,"9,359s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:43,2021-12-21 23:44:46,"2,970s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:46,2021-12-21 23:44:47,"0,247s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:47,2021-12-21 23:44:48,"1,834s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:48,2021-12-21 23:44:49,"0,725s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:49,2021-12-21 23:44:50,"0,461s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:50,2021-12-21 23:44:50,"0,418s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:50,2021-12-21 23:44:51,"0,962s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon""), ""abcdefghijk!@"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:51,2021-12-21 23:44:52,"1,010s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE21,Chrome 96.0.4664.110,,,2021-12-21 23:44:52,2021-12-21 23:45:01,"8,861s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:44:53,2021-12-21 23:44:56,"2,725s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:44:56,2021-12-21 23:44:56,"0,262s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:56,2021-12-21 23:44:57,"1,482s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:44:57,2021-12-21 23:44:58,"0,840s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:44:58,2021-12-21 23:44:59,"0,471s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:59,2021-12-21 23:44:59,"0,413s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:44:59,2021-12-21 23:45:00,"0,851s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Pe_editWww""), ""https://www.wp.pl/"")",Chrome 96.0.4664.110,,,2021-12-21 23:45:00,2021-12-21 23:45:01,"1,032s",FAILED
+,,,,,,,
+Test Cases/komunikator testy edycja profilu/PE22,Chrome 96.0.4664.110,,,2021-12-21 23:45:01,2021-12-21 23:45:10,"9,500s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 23:45:02,2021-12-21 23:45:04,"2,772s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 23:45:04,2021-12-21 23:45:05,"0,195s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 23:45:05,2021-12-21 23:45:07,"2,137s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""ewelinaho"")",Chrome 96.0.4664.110,,,2021-12-21 23:45:07,2021-12-21 23:45:07,"0,755s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""aeHFOx8jV/A="")",Chrome 96.0.4664.110,,,2021-12-21 23:45:07,2021-12-21 23:45:08,"0,433s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 23:45:08,2021-12-21 23:45:08,"0,387s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile""))",Chrome 96.0.4664.110,,,2021-12-21 23:45:08,2021-12-21 23:45:09,"1,211s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Pe_editWww""), ""/*-789"")",Chrome 96.0.4664.110,,,2021-12-21 23:45:09,2021-12-21 23:45:10,"0,944s",FAILED

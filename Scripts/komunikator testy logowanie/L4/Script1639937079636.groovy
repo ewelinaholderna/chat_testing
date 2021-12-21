@@ -23,19 +23,17 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'zMDjEGXuMr8=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'zMDjEGXuMr8=')
 
-WebUI.scrollToElement(findTestObject('komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'), 
-    3)
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), 3)
 
-WebUI.waitForElementClickable(findTestObject('komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    3)
+WebUI.waitForElementClickable(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 3)
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+WebUI.waitForAlert(2)
 
 alert_text = WebUI.getAlertText()
 

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
@@ -28,9 +30,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
+
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), 2)
 
 WebUI.setText(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Pe_editTelefon'), '123456789')
+
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'), 2)
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
 

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
@@ -30,15 +32,15 @@ WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarej
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/div_Zarejestruj konto_icon'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/select_18                        19        _803ca9'), 
-    '20', true)
+WebUI.selectOptionByValue(findTestObject('Page_PSTO webMessenger - Zalogowano/select_wiek'), '20', true)
+
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'), 2)
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
 
-wiek = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/select_18                        19        _803ca9'), 
-    'value')
+wiek = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/select_wiek'), 'value')
 
 WebUI.verifyEqual(wiek, '20')
 

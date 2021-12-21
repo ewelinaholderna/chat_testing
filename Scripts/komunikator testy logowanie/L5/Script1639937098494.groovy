@@ -23,12 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setText(findTestObject('komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), '')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), '')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+WebUI.waitForAlert(2)
 
 alert_text = WebUI.getAlertText()
 

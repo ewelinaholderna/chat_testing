@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaholderna')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-podswietlona_historia_rozmow = WebUI.getCSSValue(findTestObject('komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), 
+podswietlona_historia_rozmow = WebUI.getCSSValue(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat'), 
     'opacity')
 
 WebUI.verifyMatch(podswietlona_historia_rozmow, '1', true)

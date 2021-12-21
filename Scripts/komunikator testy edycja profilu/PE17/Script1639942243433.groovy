@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
@@ -28,15 +30,17 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/select_Kobieta                    Mczyzna'), 
-    '1', true)
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/select_plec'), 2)
+
+WebUI.selectOptionByValue(findTestObject('Page_PSTO webMessenger - Zalogowano/select_plec'), '1', true)
+
+WebUI.scrollToElement(findTestObject('Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'), 2)
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
 
-plec = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/select_Kobieta                    Mczyzna'), 
-    'value')
+plec = WebUI.getAttribute(findTestObject('Page_PSTO webMessenger - Zalogowano/select_plec'), 'value')
 
 WebUI.verifyEqual(plec, '1')
 
