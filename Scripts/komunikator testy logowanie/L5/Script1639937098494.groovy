@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
@@ -31,4 +33,6 @@ WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger
 alert_text = WebUI.getAlertText()
 
 WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
+
+WebUI.closeBrowser()
 

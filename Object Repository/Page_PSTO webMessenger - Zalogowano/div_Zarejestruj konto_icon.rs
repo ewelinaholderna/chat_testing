@@ -10,11 +10,14 @@
          <value>//div[@id='menuCol1']/div[3]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;menuCol1&quot;)/div[@class=&quot;icon&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

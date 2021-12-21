@@ -35,6 +35,8 @@ WebUI.waitForElementClickable(findTestObject('komunikator/Page_PSTO webMessenger
 
 WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
+WebUI.waitForPageLoad(2)
+
 tytul = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(tytul, '.*Zalogowano', true)

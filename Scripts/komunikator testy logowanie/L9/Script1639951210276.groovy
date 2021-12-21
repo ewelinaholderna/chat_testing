@@ -21,17 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
-    'ewelinaholderna')
+for (def row = 1; row <= 20; row++) {
+    WebUI.setText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 
+        String.valueOf(row))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
-    'zMDjEGXuMr8=')
+    WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+        String.valueOf(row))
 
-WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+    WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-alert_text = WebUI.getAlertText()
+    WebUI.waitForAlert(2)
 
-WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
+    alert_text = WebUI.getAlertText()
+
+    WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
+}
 
 WebUI.closeBrowser()
 

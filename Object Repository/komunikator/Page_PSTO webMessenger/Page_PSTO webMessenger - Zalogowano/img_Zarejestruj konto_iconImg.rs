@@ -11,13 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'iconImg' and @src = './icon_chat.png']</value>
+         <value>//*[@class = 'iconImg' and @src = './icon_profile.png']</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>./icon_chat.png</value>
+      <value>./icon_profile.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

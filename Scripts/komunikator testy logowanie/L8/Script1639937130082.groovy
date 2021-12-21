@@ -52,6 +52,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/komunikator/Page_PSTO w
 
 WebUI.click(findTestObject('Object Repository/komunikator/Page_PSTO webMessenger/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
+WebUI.waitForAlert(2)
+
 alert_text = WebUI.getAlertText()
 
 WebUI.verifyEqual(alert_text, 'Podano błędną nazwę użytkownika lub hasło!')
